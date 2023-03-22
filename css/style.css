@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fonts Google roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+p,h1,h2,h3,h4,h5,h6{
+    color: #202020;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+header{
+    background-color: black;
+}
+
+header img{
+    height: 80px;
+    margin: 10px 0;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone-nav{
+    height: 20px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    color: #ECF0F1;
+    font-size: 18px;
+}
+
+header nav a{
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #007fff;
+    transition: 0.5s;
+    text-decoration:underline;
+}
+
+.banner-section-one{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.section-team{
+    display: block;
+}
+
+.section-team h2{
+    margin: 10px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-team h2{
+    border-bottom: 2px solid #007fff;
+    padding-bottom: 5px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logo-sections{
+    height: 40px;
+}
+
+article .articles img{
+    margin: 10px 5px;
+}
+
+.elenco img{
+    height: 300px;
+}
+
+.next-game{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 0 300px;
+    background-color: #e6e6e6;
+}
+
+#next-game{
+    margin: 30px 0;
+    background: #333 url(../images/background-next-game.jpg);
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+}
+
+#logo-sections1{
+    padding: 0 10px;
+    height: 70px;
+}
+
+.derby{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.derby h4{
+    text-align: center;
+}
+
+.section-shop{
+    display: block;
+}
+
+.section-shop img{
+    border-bottom: 2px solid #007fff;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+}
+
+
+#gremio-mania{
+    height: 60px;
+    padding: 10px;
+}
+
+.shop img{
+    height: 200px;
+}
+
+.shop article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop img{
+    margin-bottom: 10px;
+}
+
+.price{
+    color: #61a6ec;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer{
+    height: 200px;
+    background-color: #000;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 0 40px;
+}
+
+.div-footer{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.footer-flex img{
+    height: 100px;
+}
+
+footer h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer li a{
+    font-size: 14px;
+    color: #fff;
+}
+
+footer li{
+    margin: 10px 0 ;
+}
